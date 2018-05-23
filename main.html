@@ -1,0 +1,85 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>My Diary Application - Dashboard</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">
+            <img id="dash-logo" src="assets/images/logo.svg" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Log Out<span class="sr-only">(current)</span></a>
+                </li>
+                <!--<li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Disabled</a>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <p>Welcome <span id="currentUser"></span></p>
+            </div>     
+            <!--<div class="col-12 col-md-6 mb-2">
+                <button id="add-task" class="btn btn-primary text-right"><i class="fas fa-plus"></i>&nbsp;Add Task</button>
+            </div>-->
+
+            <div class="col-12">
+                <div class="form-group row">
+                    <div class="col-12 col-md-1 mb-2">
+                        <label for="taskName" class="">Task Name</label>
+                    </div>
+                    <div class="col-12 col-md-9 mb-2">
+                        <input type="text" class="form-control" id="taskName" placeholder="Enter Task Name">
+                    </div>
+                    <div class="col-12 col-md-2 mb-2">
+                        <button id="add-task" type="button" class="btn btn-primary text-right"><i class="fas fa-plus"></i>&nbsp;Add Task</button>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-12">
+                <h3 class="text-left">Your Tasks</h3>
+                <p id="task-count"></p>
+            </div>
+            <div class="col-12">
+                <div id="results-list"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-8">
+                    <p class="text-center text-uppercase mt-4"><strong>All rights reserved Copyright &copy; 2018. | My Diary Application</strong></p>
+                </div>
+            </div>
+           
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
